@@ -1,0 +1,239 @@
+body,html{
+    box-sizing: border-box;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+    }
+
+
+.header{
+    height: 490px;
+    position: relative;
+
+}
+
+.header_title{
+margin-top:0 ;
+padding-top: 30px;
+padding-left: 55px;
+color: white;
+font-size: 25px;
+}
+
+.header_image{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 92%;
+
+}
+
+.searchdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-100{
+ margin-top: 10px;
+}
+
+.search{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top:5px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .search .search_input{
+    padding: 0 10px;
+    width: 1000px;
+    caret-color:lightgray;
+    transition: width 0.4s linear;
+    }
+    
+    .search:hover > .search_icon{
+    background: lightgrey;
+    color: #fff;
+    }
+
+    .search_icon{
+    height: 42px;
+    width: 42px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    color:white;
+    background-color:black;
+    }
+    
+a:link{
+    text-decoration:none;
+}    
+
+.searchdiv_title{
+    color:rgb(255, 234, 0);
+    font-size: 36px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 120px;
+    text-align: center;
+  
+    
+}
+
+
+.tagdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    padding-left: 100px;
+    padding-top: 5px;
+  
+}
+
+.tagdiv p{
+    font-weight: bold;
+    align-self: center;
+  
+}
+
+
+.dropdown_menutags{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+
+.dropdown{
+    margin:10px !important;
+}
+
+.btn-secondary {
+
+    background-color: white !important;
+    color: black !important;
+    border-color: white !important;
+    width: 130px !important;
+    
+    
+}
+.recipes_numbertag{
+    display: flex;
+    margin-top: 0;
+    margin-left : 50%;  
+}
+
+.lightgreyp {
+color: grey;
+}
+
+.infotitles{
+    font-size: 12px;
+}
+.recipe_resume{
+
+font-size: 12px;
+}
+.cardsdiv p{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.cardsdiv{
+    width:100%;
+    height: 1700px;
+    padding-top: 30px;
+
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+.recipe_card{
+    width:350px;
+    height: 600px;
+
+    border-radius: 15px;
+
+    background-color: white;
+    margin-left: 100px;
+    margin-bottom: 50px;
+   
+}
+
+.recipe_name{
+    font-weight: bold;
+    margin-top:10px;
+  
+}
+.recipe_image {
+    width:350px;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    position: relative;
+}
+
+.recipe_time{
+    display: flex;
+    width:60px;
+    height:25px;
+    background-color: orange;
+    border-radius : 12px;
+    position:absolute;
+    top: 15px;
+    right:20px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients_info{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  
+    
+
+}
+
+.ingredients_info_bloc{
+    margin-bottom: 15px;
+    width: 50%;
+    margin-bottom: 0;
+   
+}
+.ingredients_name{  
+    margin: 0;
+   
+} 
+
+.ingredients_quantity{ 
+    margin: 0;
+    padding-bottom: 10px;
+} 
